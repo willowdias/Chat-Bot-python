@@ -6,4 +6,6 @@ flask
 ChatterBot
 Spacy
 Numpy
-<img with="15" src="static/1.jpg">
+#Fotos
+<img with="15" src="img/1.png">
+<img with="15" src="img/2.png">
