@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+<title>Candice</title>
+<head>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript"src="{{ url_for('static', filename='js/home.js') }}"></script>
+  <link rel="stylesheet" href="static/home.css">
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='home.css') }}">
+
+</head>
+
+<body>
+  
+  <div class="Container" id="Container">
+   
+    
+      <div class="funchat">
+          <div id="chatbox">
+            
+            <div class="cabeca">
+              <img src="static/robo.png" alt="">
+                <div class="somb">
+                  <h1>Escolhar Opçao ABaixo</h1>
+                  
+                  <p>1 Suporte Remoto</p>
+                  <p>2 Suporte Financeiro</p>
+                  <p>3 Falar Com  Atendente</p>
+                </div>
+            </div>  
+          </div>
+          
+          <div id="userInput">
+              <input id="textInput" type="number"  name="msg" maxlength="11" placeholder="Digite Opção" />
+              <input type="button" id="envia" class="envio" title="Enviar" onclick="getBotResponse()"></input>
+          </div>
+      </div>
+  </div>
+  
+  <div id="Abrir" class="item-active" onclick="Chatbot()">
+		<a id="icone">
+    
+     <img src="{{url_for('static', filename='robo.png')}}" />
+		</a>
+	</div>
+</body>
+<script>
+ 
+</script>
+
+</html>
